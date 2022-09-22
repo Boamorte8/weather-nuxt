@@ -11,4 +11,10 @@ export default defineNuxtConfig({
       },
     },
   },
+  runtimeConfig: {
+    apiKey: "", // can be overridden by NUXT_API_KEY environment variable
+    public: {
+      apiId: "", // can be overridden by NUXT_PUBLIC_API_ID environment variable
+    },
+  },
 });
